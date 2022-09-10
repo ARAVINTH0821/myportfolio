@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta charset="UTF-8">
-  <link rel="icon" type="image/svg+xml" href="http://127.0.0.1:5500/vite.svg">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com/">
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-<link href="document_files/css2.css" rel="stylesheet">
+<html lang="en">
 
-  <link rel="stylesheet" href="document_files/style.css">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Noto+Sans+Tamil:wght@500&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
   <title>document</title>
 </head>
 
@@ -16,12 +17,12 @@
      <nav class="navigation">
         <div class="links">
             <a href="" class="link">
-                </a><a href="" class="link">home</a>
+                <a href="" class="link">home</a>
                 <a href="" class="link">service</a>
                 <a href="" class="link">blog</a>
                 <a href="" class="link">about</a>
                 <a href="" class="link">more</a>
-            
+            </a>
             
         </div>
         <button class="contact-us">
@@ -30,18 +31,18 @@
      </nav>  
      <div class="body">
       <div class="image">
-        <img src="document_files/law-icon-concept-engraved-metal-hexagonal-pedestral-backgrou.jpg" alt="not load" height="300px">
-        <img src="document_files/law-icon-concept-engraved-metal-hexagonal-pedestral-backgrou.jpg" alt="not load" height="300px">
+        <img height="300px"src="https://thumbs.dreamstime.com/b/law-icon-concept-engraved-metal-hexagonal-pedestral-background-paragraph-justice-logo-glowing-abstract-digital-surface-d-blue-217810270.jpg"alt="not load"></img>
+        <img height="300px"src="https://thumbs.dreamstime.com/b/law-icon-concept-engraved-metal-hexagonal-pedestral-background-paragraph-justice-logo-glowing-abstract-digital-surface-d-blue-217810270.jpg"alt="not load"></img>
       </div>
       <div class="about_text">
-        <p class="title">PARAGRAPH</p><br>
+        <p class="title">PARAGRAPH</p></br>
         <p class="basic">
           Paragraphs are medium-sized units of writing,
            longer than sentences, but shorter than sections, chapters, or entire works. 
            Because they connect the “small” ideas of individual sentences to a “bigger” idea, paragraph 
            structure is essential to any writing for organization, flow, and comprehension. 
-        </p><br>
-        <h1>Parts of a paragraph</h1><br>
+        </p></br>
+        <h1>Parts of a paragraph</h1></br>
         <p class="basic2">
 Like other forms of writing, paragraphs follow a standard three-part structure with a beginning, middle, and
  end. These parts are the topic sentence, development and support, and conclusion. Topic sentences, also known
@@ -59,44 +60,6 @@ Like other forms of writing, paragraphs follow a standard three-part structure w
         </button>
       </div>
      </div>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+</body>
 
-
-</body></html>
+</html>
